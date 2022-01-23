@@ -15,14 +15,10 @@ function App() {
   return (
     <Router>
       <Switch>
-      <div>
-        <Route exact path='/' component={HomePage}>
-
-        </Route>
-        <Route path='/hats' component={HatsPage}>
-
-        </Route>
-      </div>
+        <div>
+          <Route exact path='/' component={HomePage} />
+          <Route path='/hats' component={HatsPage} />
+        </div>
       </Switch>
     </Router>
   );
