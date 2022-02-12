@@ -12,10 +12,8 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <div>
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
-        </div>
       </Switch>
     </Router>
   );
